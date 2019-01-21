@@ -12,7 +12,7 @@ describe 'GithubService' do
       expect(service.access_token).to eq('1')
     end
   end
-
+  
   describe '#authenticate!' do
     before :each do
       @service = GithubService.new
